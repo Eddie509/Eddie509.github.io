@@ -88,7 +88,7 @@ h3{
     font-family:'Alfa Slab One', Garamond, serif;
     font-weight: normal;
 }
-h4 > span{
+h4{
     color: darkred;
     text-transform: uppercase;
     text-shadow:.09375rem .09375rem .09375rem #000;
