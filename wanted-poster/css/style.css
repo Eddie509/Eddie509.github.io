@@ -88,7 +88,7 @@ h3{
     font-family:'Alfa Slab One', Garamond, serif;
     font-weight: normal;
 }
-h4{
+h4 > span{
     color: darkred;
     text-transform: uppercase;
     text-shadow:.09375rem .09375rem .09375rem #000;
@@ -117,6 +117,7 @@ h5{
 /* Section & Paragraph */
 section{
 margin-top: .5rem;
+
 }
 
 p{
@@ -156,12 +157,12 @@ max-width: 50rem;
 }
 figure{
     margin-bottom: 2rem;
+
+
     margin-top: .25rem;
-    margin-bottom: .5rem;
     margin-left: .5rem;
     margin-right: .5rem;
     background-color: #333;
-
 }
 
 figcaption {
@@ -176,7 +177,9 @@ footer{
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    border-top: 2rem; font-style: solid; color: #333;
+    border-top: 2rem; 
+    font-style: solid; 
+    color: #333;
     font-size: 18px;
 }
 footer p span {
