@@ -106,9 +106,7 @@ h5{
     color: #FFF;
     font-size: 1rem;
     margin-top: .25rem;
-    margin-bottom: .5rem;
-    margin-left: .5rem;
-    margin-right: .5rem;
+    padding: .5rem;
     background-color: #333;
     text-align: center;
     font-weight: normal;
@@ -148,21 +146,17 @@ p{
 
 
 /* Image & Figure */
-Img{
+img{
 width: 100%;
-margin-top: 0;
-margin-left: auto;
-margin-right: auto;
+margin: 0 auto;
 max-width: 50rem;
 }
 figure{
     margin-bottom: 2rem;
-
-
     margin-top: .25rem;
     margin-left: .5rem;
     margin-right: .5rem;
-    background-color: #333;
+    
 }
 
 figcaption {
@@ -177,10 +171,7 @@ footer{
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    border-top: 2rem; 
-    font-style: solid; 
-    color: #333;
-    font-size: 18px;
+    border-top: 2rem solid #333; 
 }
 footer p span {
     color:brown
