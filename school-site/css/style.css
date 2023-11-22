@@ -185,37 +185,36 @@ text-decoration: uppercase;
 
 
 /* Navigation Menu */
-
-.container{
+nav{
     padding-left: 0;
     margin-top: .25rem;
+}
+
+nav a{
     justify-content: start;
     display: flex;
     flex-direction: column;
-    align-items: flex start;
-}
+    align-items: start;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
 
-nav a {
-display:inline-block;
-width: 100%;
-line-height: 3;
-text-align: center;
-font-size: 1.125rem;
-margin-bottom: 1.5rem;
-border: solid; width: .0625rem; color: #33658A;
+    border:solid; border-width: .0625rem; border-color: #33658A;
 }
 
 nav a:focus,
-nav a:hover {
+nav a:hover{
     color: #FFF;
-    background: #33658A;
+    background-color: #33658A;
 }
 
-nav a:active {
-color:#FFF;
-background: #000;
+nav a:active{
+    color: #FFF;
+    background-color: #000;
 }
-
 
 /* Footer Styles */
 footer {
