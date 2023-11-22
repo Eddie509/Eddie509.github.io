@@ -79,17 +79,21 @@ header, footer {
 
 /* Imported Typfaces */
 @font-face{
-
-
-
+src:
+url("../fonts/josefinslab-regular.ttf"), format("TrueType");
+font-style:normal;
+font-weight: 400 normal;
+font-family: JoseFinSlab;
 }
 
 
 
 @font-face{
-
-
-    
+    src:
+    url("../fonts/montserrat-regular.ttf"), format("TrueType");
+    font-style:normal;
+    font-weight: 400 normal;
+    font-family: Montserrat;
 }
 
 
@@ -97,50 +101,126 @@ header, footer {
 
 /* Typography Styles */
 
-html {}
-h1 {}
-h2{}
-h2 + p {}
-p{}
-li{}
-figcaption{}
+html {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+
+
+h1,
+h2{
+    font-family: JoseFinSlab, Georgia, 'Times New Roman', Times, serif;
+   letter-spacing: 0.125rem;
+}
+h1 {
+    font-family: JoseFinSlab, Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.75rem;
+    letter-spacing: 0.125rem;
+    margin: 1.125rem;
+    text-align: center;
+    }
+
+
+h2 + p {
+text-indent: 1.5rem;
+
+}
+p,
+li{
+    font-size: 0.75rem;
+letter-spacing: .03125rem;
+word-spacing: .125rem;
+}
+figcaption{font-size: .75rem;
+margin-bottom:2rem;
+}
+
 
 
 
 
 
 /* Link Styling */
-a{}
-
+a{
+    text-decoration: none;
+}
 a:link,
-a:visited{}
+a:visited{
+    color:#33658A;
+}
 
-a:focus
-a:hover{}
+
+a:hover,
+a:focus{
+
+    text-decoration: none;
+}
+
 
 
 
 /* List Styling */
-ul{}
-ol{}
-.long-list a:hover
+ul{
+margin-top: 1rem ; 
+margin-bottom: 1rem;
+margin-left: 0;
+margin-right: 0;
+list-style-type: square;
+}
+
+ol{
+    margin-top: 1rem ; 
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    list-style-type: lowercase;
+}
+.long-list a:hover {
+text-decoration: uppercase;
+}
+
 
 
 
 
 
 /* Navigation Menu */
-nav{}
-nav a {}
-nav a:focus
-nav a: :hover {}
-nav a :active
 
+.container{
+    padding-left: 0;
+    margin-top: .25rem;
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex start;
+}
 
+nav a {
+display:inline-block;
+width: 100%;
+line-height: 3;
+text-align: center;
+font-size: 1.125rem;
+margin-bottom: 1.5rem;
+border: solid; width: .0625rem; color: #33658A;
+}
+
+nav a:focus,
+nav a:hover {
+    color: #FFF;
+    background: #33658A;
+}
+
+nav a:active {
+color:#FFF;
+background: #000;
+}
 
 
 /* Footer Styles */
-footer {}
+footer {
+    text-align: center;
+}
 
 
 
