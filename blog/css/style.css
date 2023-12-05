@@ -82,10 +82,11 @@ header{
  font-family: 'Roboto',sans-serif;
 }
 h1{
-padding: 1.5rem;
+padding: 1.3rem;
 transform: rotate(-5deg);
 text-align: center;
-margin: 1.3rem 0;
+font-size: 2.8rem;
+margin: 2rem 0;
 }
 
 h2{
@@ -117,10 +118,10 @@ nav a{
 
 
 nav a:focus,
-nav a:hover, nav a:active{
+nav a:hover{
 text-decoration: line-through;
-transform: rotate(-5deg);
--webkit-transform: rotate(-5deg);
+transform: rotate(5deg);
+-webkit-transform: rotate(5deg);
 }
 
 
@@ -132,8 +133,7 @@ transform: rotate(-5deg);
     text-transform: uppercase;
     background-color: darkred;
     color: #EFD;
-    padding:1rem 2rem;
-
+    padding:.8rem .8rem;
     border-top-left-radius: .5rem ;
     border-bottom-left-radius: 0;
     border-top-right-radius: 0;
